@@ -22,6 +22,8 @@
 		F058057024462EC700060014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F058056F24462EC700060014 /* Assets.xcassets */; };
 		F05805802446302D00060014 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058057F2446302D00060014 /* TableRowController.swift */; };
 		F0580582244630B400060014 /* InterfaceDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0580581244630B400060014 /* InterfaceDetailController.swift */; };
+		F0ECB9F3244ED98800CB0C60 /* DescriptionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ECB9F2244ED98800CB0C60 /* DescriptionRow.swift */; };
+		F0ECB9F5244ED9BA00CB0C60 /* IngredientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ECB9F4244ED9BA00CB0C60 /* IngredientRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		F058057124462EC700060014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F058057F2446302D00060014 /* TableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
 		F0580581244630B400060014 /* InterfaceDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceDetailController.swift; sourceTree = "<group>"; };
+		F0ECB9F2244ED98800CB0C60 /* DescriptionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionRow.swift; sourceTree = "<group>"; };
+		F0ECB9F4244ED9BA00CB0C60 /* IngredientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 				F058056B24462EC600060014 /* InterfaceController.swift */,
 				F0580581244630B400060014 /* InterfaceDetailController.swift */,
 				F058057F2446302D00060014 /* TableRowController.swift */,
+				F0ECB9F2244ED98800CB0C60 /* DescriptionRow.swift */,
+				F0ECB9F4244ED9BA00CB0C60 /* IngredientRow.swift */,
 				F058056D24462EC600060014 /* ExtensionDelegate.swift */,
 				F058056F24462EC700060014 /* Assets.xcassets */,
 				F058057124462EC700060014 /* Info.plist */,
@@ -307,6 +313,8 @@
 			files = (
 				F058056E24462EC600060014 /* ExtensionDelegate.swift in Sources */,
 				F05805802446302D00060014 /* TableRowController.swift in Sources */,
+				F0ECB9F3244ED98800CB0C60 /* DescriptionRow.swift in Sources */,
+				F0ECB9F5244ED9BA00CB0C60 /* IngredientRow.swift in Sources */,
 				F0580582244630B400060014 /* InterfaceDetailController.swift in Sources */,
 				F058056C24462EC600060014 /* InterfaceController.swift in Sources */,
 			);
