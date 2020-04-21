@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15505" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TableWatchLesson_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="9eQ-ja-4eU">
+                            <items>
+                                <tableRow identifier="tableid" id="nMx-cp-k69" customClass="TableRowController" customModule="TableWatchLesson_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="pgS-I6-tL9">
+                                        <items>
+                                            <label alignment="left" text="Label" id="dxo-W1-38X"/>
+                                            <label alignment="left" text="Label" id="QEW-TD-SnK"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="descriptionLabel" destination="QEW-TD-SnK" id="RZv-OH-U7I"/>
+                                        <outlet property="titleLabel" destination="dxo-W1-38X" id="b7K-pI-gmN"/>
+                                        <segue destination="7lh-B3-HFU" kind="push" id="3Ax-j3-Sa4"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="9eQ-ja-4eU" id="FqL-CW-0Mt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+        <!--Interface Detail Controller-->
+        <scene sceneID="h2n-Nb-hlD">
+            <objects>
+                <controller id="7lh-B3-HFU" customClass="InterfaceDetailController" customModule="TableWatchLesson_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label" numberOfLines="0" id="0nh-Se-nEK"/>
+                    </items>
+                    <connections>
+                        <outlet property="titleLabel" destination="0nh-Se-nEK" id="wHf-nb-yoU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="328" y="31"/>
+        </scene>
+    </scenes>
+</document>
